@@ -1,5 +1,6 @@
-import { ErrorStateMatcher } from '@angular/material';
-import { FormControl, NgForm, FormGroupDirective } from '@angular/forms';
+import { FormControl, FormGroupDirective, NgForm } from '@angular/forms';
+
+import { ErrorStateMatcher } from '@angular/material/core';
 
 /**
 * Shows error state on the file-input if a pdf-file is selected.
